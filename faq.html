@@ -1,0 +1,317 @@
+<!--FAQ-->
+<head>
+   <meta charset="utf-8">
+   <title> LLAOLLAO </title>
+   <link rel="shortcut icon" type="image/jpg" href="logo.jpeg"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  
+ </head>
+<style>
+  body {
+      margin: 0;
+      background-color: ghostwhite;
+      font-family: 'Arial', san serif;
+      color: yellowgreen;
+      text-align: center;
+    }
+
+  </style>
+  <style>
+    nav ul {
+  list-style-type: none;
+  background-color: yellowgreen;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: darkgreen;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+}
+</style>
+
+<style>
+/* === Hover Effect === */
+nav ul li a:hover {
+  background-color: ghostwhite ; /* Changes background on hover */
+  color: black; /* Changes text color on hover */
+  border-radius: 5px; /* Optional: makes the hover button rounded */
+}
+</style>
+
+
+ <!-- Navigation Menu -->
+ <head>
+  <nav>
+     <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Our Menu</a></li>
+      <li><a href="topping.html">Topping</a></li>
+      <li><a href="company.html">Company Background</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+  </nav>
+ </head>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>llaollao – FAQ</title>
+  <link rel="icon" href="https://llaollaoweb.com/assets/images/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --green: #8DC63F;
+      --white: #FFFFFF;
+      --gray: #f7f7f7;
+      --dark: #333;
+      --font: 'Nunito', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font);
+      background-color: var(--white);
+      color: var(--dark);
+    }
+
+    header {
+      background-color: var(--green);
+      color: var(--white);
+      padding: 2rem 1rem;
+      text-align: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      position: relative;
+    }
+
+    header img {
+      width: 150px;
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    .faq-section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .faq-title {
+      text-align: center;
+      font-size: 2rem;
+      color: var(--green);
+      margin-bottom: 2rem;
+      font-weight: 700;
+    }
+
+    .faq-item {
+      background-color: var(--gray);
+      border-radius: 20px;
+      margin-bottom: 1rem;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+      border: 2px solid transparent;
+    }
+
+    .faq-item.active {
+      border-color: var(--green);
+    }
+
+    .faq-question {
+      padding: 1.2rem 1.5rem;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--green);
+      background-color: #fff;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background-color 0.3s ease;
+    }
+
+    .faq-question:hover {
+      background-color: #eef9e8;
+    }
+   
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      background: #fff;
+      transition: max-height 0.5s ease;
+      padding: 0 1.5rem;
+      transition: max-height 0.5s ease, opacity 0.4s ease;
+      opacity: 0;
+    }
+    .faq-answer a {
+    color: var(--green);
+    text-decoration: underline;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    }
+    .faq-answer a:hover {
+    color: #6fa92f;
+    }
+
+    .faq-item.active .faq-answer {
+      padding: 1rem 1.5rem 1.5rem;
+      max-height: 500px;
+      opacity: 1;
+    }
+
+    .faq-icon {
+      font-size: 1.5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9rem;
+      background-color: yellowgreen;
+      color: ghostwhite;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .faq-question {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.jpeg" alt="llaollao logo" />
+    <h1>Frequently Asked Questions</h1>
+  </header>
+
+  <div class="faq-section">
+    <div class="faq-title">Need Help? Find Your Answers Here</div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        What is llaollao made of?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>llaollao is made with 100% natural skimmed milk yogurt, rich in calcium and probiotics, served with a variety of toppings including fruit, crunch, and sauces.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        Is your frozen yogurt healthy?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Yes, our yogurt is low in fat and calories, and contains live cultures that support digestion and gut health. It’s a great option for a guilt-free treat.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        Are there vegan or dairy-free options?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>We sometimes offer dairy-free sorbet made from fruit juice. Availability may vary, so we recommend asking your nearest llaollao outlet directly.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        Can I customize my order?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Absolutely! You can personalize your llaollao with a wide selection of toppings—from fresh mango and strawberries to caramel sauce, granola, and more.</p>
+        <div style="text-align: center; margin-top: 2rem;">
+        <a href="menu llaollao.webp" target="_blank" style="
+        background-color: var(--green);
+        color: white;
+        padding: 0.8rem 1.5rem;
+        border-radius: 30px;
+        font-weight: 700;
+        text-decoration: none;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        transition: background-color 0.3s ease;
+      ">Explore Our Menu</a>
+      </div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        Is llaollao Halal certified?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Yes, in many countries including Malaysia, our products are Halal certified. Always check your local outlet for the latest certifications.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        How can I find the nearest llaollao outlet?
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>You can visit our <a href="https://www.llaollaoweb.com/en/where" target="_blank">Where page</a> to locate the nearest llaollao store or search "llaollao near me" on Google Maps.</p>
+       </div>
+    </div>
+  </div>
+
+<div style="height:600px; margin:100px;color: yellowgreen;">
+     <h1 style="text-align:left ;">Our Legal Notice</h1>
+     <p style=" font-size:20px; color: yellowgreen; text-align: left;">This legal notice presents the general terms and conditions for accessing and using the website llaollaoweb.com, belonging to LLAO LLAO SL, with registered business address at APARTADO DE CORREOS (Post box) 4051, 30080 MURCIA, and with CIF (Tax Code) number B73665937  E-mail: info@llaollao.es. LLAO LLAO reserves the right to interrupt access to this website at any time, and without prior notice, for technical, security, monitoring or maintenance reasons, failure in the electricity supply, or any other reason. Said interruption may be temporary or definitive in nature. As a user you will be notified of the situation and may lose information stored in the different services. You will not be entitled to compensation of any kind as a result of such a loss.</p>
+
+<footer>
+    &copy; 2025 Llaollao, Inc. All rights reserved. 
+  </footer>
+
+  <script>
+    // Toggle FAQ
+    document.querySelectorAll('.faq-question').forEach((question) => {
+      question.addEventListener('click', () => {
+        const item = question.parentElement;
+        const openItem = document.querySelector('.faq-item.active');
+        if (openItem && openItem !== item) {
+          openItem.classList.remove('active');
+        }
+        item.classList.toggle('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
